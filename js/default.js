@@ -1,4 +1,4 @@
-/*var number = Math.floor(Math.random()*3);
+var number = Math.floor(Math.random()*3);
 var answer = parseInt(window.prompt('数あてゲーム。0~2の数字を入力してください!'));
 
 var message;
@@ -15,6 +15,4 @@ else{
   message = '0~3の数字を入力してくれよぉ';
 }
 
-document.getElementById('choice').textContent = message;*/
-
-console.log('こんにちは世界！');
+document.getElementById('choice').textContent = message;
