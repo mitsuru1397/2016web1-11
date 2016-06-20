@@ -15,4 +15,4 @@ else{
   message = '0~3の数字を入力してくれよぉ';
 }
 
-document.getElementById('choice').textContent = message;
+document.getElementById('choice').textContent = new Date();
