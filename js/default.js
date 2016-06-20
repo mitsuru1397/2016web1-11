@@ -4,14 +4,11 @@ var answer = parseInt(window.prompt('数あてゲーム。0~2の数字を入力�
 var message;
 if(answer === number) {
   message = 'あたり!';
-}
-else if (answer < number){
+}else if (answer < number){
   message = '残念、それより大きい数字です';
-}
-else if(number < answe){
+}else if(number < answe){
   message = '残念、それより小さい数字です';
-}
-else{
+}else{
   message = '0~3の数字を入力してくれよぉ';
 }
 
